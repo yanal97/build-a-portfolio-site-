@@ -2,13 +2,14 @@ body {
 	font-family: Trebuchet MS, Helvetica, sans-serif;
 }
 
+/*testing pull requests*/
 
 ul {
 	list-style: none;
 }
 
 
-.box{
+.box {
 	width: 100%;
 }
 
@@ -26,17 +27,22 @@ ul {
 	text-align: center;
 }
 
-header, nav, footer, section, article, div {
-  box-sizing: border-box;
+header,
+nav,
+footer,
+section,
+article,
+div {
+	box-sizing: border-box;
 }
 
 
 .header {
-	 border-bottom: 4px solid #d3d3d3;
-	 margin-left: 20%;
-	 margin-top: 3%;
-	 width: 100%;
-	 margin-right: 7%;
+	border-bottom: 4px solid #d3d3d3;
+	margin-left: 20%;
+	margin-top: 3%;
+	width: 100%;
+	margin-right: 7%;
 }
 
 
@@ -59,40 +65,40 @@ header, nav, footer, section, article, div {
 
 
 .nav {
-  width: 100%;
-  margin-left: 20%;
-  margin-right: 7%;
+	width: 100%;
+	margin-left: 20%;
+	margin-right: 7%;
 }
 
 
 .nav__list {
-  width: 100%;
-  padding: 0;
-  margin: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 
 .nav__item {
-  box-sizing: border-box;
-  display: inline-block;
-  width: 24%;
-  text-align: center;
-  line-height: 24px;
-  padding: 24px;
-  text-transform: uppercase;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	line-height: 24px;
+	padding: 24px;
+	text-transform: uppercase;
 }
 
 
 .nav a {
-  text-decoration: none;
-  color: black;
-  padding: 1.5em;
+	text-decoration: none;
+	color: black;
+	padding: 1.5em;
 }
 
 
 .nav a:hover {
-  text-decoration: underline;
-  color: grey;
+	text-decoration: underline;
+	color: grey;
 }
 
 
@@ -145,9 +151,9 @@ header, nav, footer, section, article, div {
 
 .learn {
 	box-sizing: border-box;
-  	display: inline-block;
-  	width: 100%;
-  	margin-left: 20%;
+	display: inline-block;
+	width: 100%;
+	margin-left: 20%;
 }
 
 
@@ -186,7 +192,7 @@ header, nav, footer, section, article, div {
 	width: 100%;
 	font-family: Palatino Linotype;
 	color: black;
-	
+
 }
 
 
@@ -239,23 +245,23 @@ header, nav, footer, section, article, div {
 
 
 .about1 a:hover {
-    color: red;
+	color: red;
 }
 
 
 .about2 a:hover {
-    color: red;
- }
+	color: red;
+}
 
 
- .about3 a {
- 	color: #ef6e04;
- }
+.about3 a {
+	color: #ef6e04;
+}
 
 
- .about3 a:hover {
- 	color: black;
- }
+.about3 a:hover {
+	color: black;
+}
 
 
 #sublime {
@@ -296,49 +302,49 @@ header, nav, footer, section, article, div {
 }
 
 .header__menu {
-  display: none;
+	display: none;
 }
 
 
 @media screen and (max-width: 1025px) {
 	.nav {
-    z-index: 10;
-    background-color:#ef6e04;
-    width: 300px;
-    position: absolute;
-    -webkit-transform: translate(-420px, 0);
-    transform: translate(-420px, 0);
-    transition: transform 0.5s ease;
-    margin-left: 0px;
-  }
+		z-index: 10;
+		background-color: #ef6e04;
+		width: 300px;
+		position: absolute;
+		-webkit-transform: translate(-420px, 0);
+		transform: translate(-420px, 0);
+		transition: transform 0.5s ease;
+		margin-left: 0px;
+	}
 
 
-  .nav.open {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
+	.nav.open {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
 
 
-  .nav__item {
-    display: list-item;
-    border-bottom: 1px solid #E0E0E0;
-    width: 100%;
-    text-align: left;
-  }
+	.nav__item {
+		display: list-item;
+		border-bottom: 1px solid #E0E0E0;
+		width: 100%;
+		text-align: left;
+	}
 
 
-  .header__menu {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    padding: 1em;
-  }
+	.header__menu {
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		padding: 1em;
+	}
 
 
-  .header__menu svg {
-    width: 32px;
-    fill: #E0E0E0;
-  }
+	.header__menu svg {
+		width: 32px;
+		fill: #E0E0E0;
+	}
 
 
 }
@@ -358,7 +364,7 @@ header, nav, footer, section, article, div {
 	}
 
 
-	.header_title{
+	.header_title {
 		text-align: right;
 	}
 
@@ -371,8 +377,8 @@ header, nav, footer, section, article, div {
 
 
 	.big_image {
-	margin-left: 2%;
-	margin-right: 2%;
+		margin-left: 2%;
+		margin-right: 2%;
 	}
 
 
@@ -508,7 +514,7 @@ header, nav, footer, section, article, div {
 	}
 
 
-} 
+}
 
 
 @media screen and (min-width: 1025px) {
@@ -550,24 +556,24 @@ header, nav, footer, section, article, div {
 	}
 
 
-	.two{
+	.two {
 		margin-left: 0%;
 		width: 33.333%;
 	}
 
 
-	.three{
+	.three {
 		margin-left: 0%;
 		width: 33.333%;
-	}	
+	}
 
 
-	.four{
+	.four {
 		margin-left: 0%;
 		width: 33.333%;
 		margin-right: 0%;
 	}
-	
+
 
 	.one h1 {
 		font-size: 1.2em;
@@ -618,8 +624,8 @@ header, nav, footer, section, article, div {
 }
 
 
-@media screen and (min-width: 1600px){
-	.container{
+@media screen and (min-width: 1600px) {
+	.container {
 		width: 1600px;
 		margin-left: auto;
 		margin-right: auto;
